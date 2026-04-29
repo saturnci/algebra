@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y \
   git \
   && rm -rf /var/lib/apt/lists/*
 
-ARG SDK_COMMIT=eb93d4d
+ARG SDK_COMMIT=4a6fcf5
 RUN git clone https://github.com/saturnci/saturnci-sdk.git /tmp/saturnci-sdk \
   && cd /tmp/saturnci-sdk \
   && git checkout $SDK_COMMIT \
