@@ -60,5 +60,5 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
-  gem "saturnci-sdk", git: "https://github.com/saturnci/saturnci-sdk.git", ref: "4d2bd41"
+  gem "saturnci-sdk", git: "https://github.com/saturnci/saturnci-sdk.git", ref: "aa17687"
 end
